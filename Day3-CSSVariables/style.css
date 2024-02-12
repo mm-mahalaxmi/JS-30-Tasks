@@ -1,0 +1,39 @@
+*
+{
+  margin: 10px;
+  text-align: center;
+}
+:root 
+{
+    --base: #22ff00;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img 
+{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl 
+{
+    color: var(--base);
+}
+
+
+.controls 
+{
+    margin-bottom: 50px;
+}
+
+input 
+{
+    width: 100px;
+}
+
+img.colorpick-eyedropper-input-trigger
+{
+  display: none;
+}
